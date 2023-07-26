@@ -1,0 +1,121 @@
+@font-face{font-family:gilroy;font-style:normal;font-weight:900;src:local('Gilroy'),url(https://fonts.cdnfonts.com/s/62856/GilroyHeavy.woff) format('woff')}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height:100%;
+    width:100%;
+    overflow: hidden;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #9D856F;
+    display: flex;
+}
+#part1{
+    height: 100%;
+    width: 26%;
+}
+#part2{
+    height: 100%;
+    width: 67%;
+    background-color: rgb(39, 39, 39);
+    background-image: url(https://images.unsplash.com/photo-1615292026763-3af006e59a67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #57595c52;
+}
+
+#overlayy{
+    height: 100%;
+    width: 100%;
+    background-color: #4e515456;
+    border-radius: 5px;
+    box-shadow: 5.1px 10.2px 10.2px hsl(0deg 0% 0% / 0.34);
+}
+
+#part3{
+    height: 100%;
+    width: 7%;
+}
+
+#text-div{
+    position: absolute;
+    width: 428px;
+    left: 8.8%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#text-div>h1{
+    font-size: 75px;
+    color: white;
+    font-family: 'Monument', sans-serif;
+    letter-spacing: 8px;
+    font-weight: 600;
+    line-height: 78px;
+    text-transform: uppercase;
+
+}
+
+#small-img{
+    border-radius: 5px;
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    background-color: red;
+    top: 50%;
+    right: 5%;
+    transform: translate(0, -50%);
+    background-image: url(https://images.unsplash.com/photo-1529139574466-a303027c1d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+#verticaltext{
+    position: absolute;
+    transform: rotate(90deg);
+    right: -84.5%;
+    transform-origin: 0% 0%;
+    top: -5%;
+}
+#verticaltext h1{
+    font-size: 60px;
+    font-weight: 50;
+    letter-spacing: 8px;
+    font-family: Gilroy;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #e7e7e7;
+    color: transparent;
+}
+#nav{
+    position: absolute;
+    display: flex;
+    width: 310px;
+    left: 9%;
+    top: 5%;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav img{
+    height: 50px;
+}
+#nav h5{
+    font-size: 20px;
+    font-family: Gilroy;
+    color: #fff;
+}
