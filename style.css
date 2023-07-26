@@ -1,6 +1,5 @@
 @font-face{font-family:gilroy;font-style:normal;font-weight:900;src:local('Gilroy'),url(https://fonts.cdnfonts.com/s/62856/GilroyHeavy.woff) format('woff')}
 
-
 *{
     margin:0;
     padding:0;
@@ -66,7 +65,7 @@ html, body{
     font-weight: 600;
     line-height: 78px;
     text-transform: uppercase;
-
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
 #small-img{
@@ -111,11 +110,18 @@ html, body{
     justify-content: space-between;
 }
 
-#nav img{
+#nav img {
     height: 50px;
-}
+    transition: transform 0.3s ease; 
+  }
+  
+  #nav img:hover {
+    transform: rotate(10deg);
+  }
+  
 #nav h5{
     font-size: 20px;
     font-family: Gilroy;
     color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
 }
